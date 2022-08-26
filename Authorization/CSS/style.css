@@ -1,0 +1,18 @@
+* {
+  background-color: aqua;
+}
+
+.main-content {
+  background-color: aqua;
+  text-align: center;
+}
+
+.auth-page {
+  text-align: center;
+}
+.btn-success {
+  background-color: blue;
+  color: white;
+  border-radius: 10%;
+  text-align: center;
+}
