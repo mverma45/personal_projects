@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Island+Moments&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   margin: 0;
   padding: 0;
   background-color: rgb(176, 176, 201);
-  font-family: "Fraunces", serif;
-  font-family: "Island Moments", cursive;
   font-size: 12px;
 }
 
 .wrapper {
+  font-family: "Fraunces", serif;
+  font-family: "Island Moments", cursive;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,20 +25,17 @@
   animation: move 1s infinite;
 }
 
-/* animation moves down */
+/* animation moves down make an animation that moves up after it reaches the bottom*/
+
 @keyframes move {
   0% {
-    top: 0px;
-  }
-  50% {
-    top: 20px;
+    top: -20px;
   }
   100% {
-    top: 0px;
+    top: 5px;
   }
 }
 
-/*make an animation that moves up after it reaches the bottom*/
 .header-main {
   color: green;
 }
@@ -51,12 +48,14 @@ p {
   font-size: 3.2em;
 }
 
-p:hover {
-  font-weight: bold;
+.header {
+  font-family: "Roboto", sans-serif;
 }
 
-/* .header-main:hover {
-  background-color: aquamarine;
-  color: beige;
-  transition-duration: 2s;
-} */
+a,
+.header {
+  font-size: 0.75em;
+  /* top and bottom | left and right */
+  padding-left: 1em;
+  padding-top: 2em;
+}
