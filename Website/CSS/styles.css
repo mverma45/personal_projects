@@ -7,6 +7,12 @@
   font-size: 12px;
 }
 
+img {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
 .wrapper {
   font-family: "Fraunces", serif;
   font-family: "Island Moments", cursive;
@@ -15,26 +21,26 @@
   justify-content: center;
   text-align: center;
   border: 2px solid red;
-  height: 20em;
+  height: 25em;
   width: 25em;
   border-radius: 3%;
   /* top | right | bottom | left */
   margin: 3em 0 0 40em;
   box-sizing: border-box;
   position: relative;
-  animation: move 1s infinite;
+  /* animation: move 1s infinite; */
 }
 
 /* animation moves down make an animation that moves up after it reaches the bottom*/
 
-@keyframes move {
+/* @keyframes move {
   0% {
     top: -20px;
   }
   100% {
     top: 5px;
   }
-}
+} */
 
 .header-main {
   color: green;
@@ -44,7 +50,24 @@ h1 {
   font-size: 2.85em;
 }
 
-p {
+.structure {
+  font-size: 2.5em;
+  padding-left: 12px;
+}
+
+.teamSport,.scoring,.dribbling{
+  font-size: 2.05em;
+  margin-top: 1.05em;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* .scoring {
+  margin-top: 2em;
+  font-size: 2.05em;
+} */
+
+.sub {
   font-size: 3.2em;
 }
 
