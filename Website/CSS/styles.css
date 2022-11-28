@@ -82,3 +82,20 @@ a,
   padding-left: 1em;
   padding-top: 2em;
 }
+
+/* footer */
+.footer,
+.created,
+.email,
+.version,
+.fa-copyright {
+  padding: 5em 1em 0 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+}
